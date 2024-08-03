@@ -22,6 +22,20 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+## Now With Trans Colours!
+
+Make sure that your terminal's blue, magenta, and white colours are set to the transgender flag blue, pink, and white respectively.
+
+For those who don't want to look it up:
+
+Blue: `#5BCEFA`
+Pink: `#F5A9B8`
+White: `#FFFFFF`
+
+(obtained from <https://www.flagcolorcodes.com/transgender>)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## Contents
 - [Overview](#overview)
 - [Build Dependencies](#build-dependencies)
