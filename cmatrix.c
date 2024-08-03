@@ -324,7 +324,7 @@ int main(int argc, char *argv[]) {
     int update = 4;
     int highnum = 0;
     int mcolor = COLOR_GREEN;
-    int rainbow = 0;
+    int rainbow = 1;
     int lambda = 0;
     int randnum = 0;
     int randmin = 0;
@@ -794,25 +794,28 @@ if (console) {
                     }
                 } else {
                     if (rainbow) {
-                        int randomColor = rand() % 6;
+                        int randomColor = rand() % 3;
 
                         switch (randomColor) {
+                            // case 0:
+                            //     mcolor = COLOR_GREEN;
+                            //     break;
                             case 0:
-                                mcolor = COLOR_GREEN;
-                                break;
+                                mcolor = COLOR_WHITE;
+                                break; // white
                             case 1:
                                 mcolor = COLOR_BLUE;
                                 break;
+                            // case 2:
+                            //     mcolor = COLOR_BLACK;
+                            //     break;
+                            // case 3:
+                            //     mcolor = COLOR_YELLOW;
+                            //     break;
+                            // case 4:
+                            //     mcolor = COLOR_CYAN;
+                            //     break;
                             case 2:
-                                mcolor = COLOR_BLACK;
-                                break;
-                            case 3:
-                                mcolor = COLOR_YELLOW;
-                                break;
-                            case 4:
-                                mcolor = COLOR_CYAN;
-                                break;
-                            case 5:
                                 mcolor = COLOR_MAGENTA;
                                 break;
                        }
